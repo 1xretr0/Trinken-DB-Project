@@ -141,4 +141,4 @@ CREATE SYNONYM retr0_tk_pds FOR mx_a160_plsql_s06.tk_pedidos;
 
 CREATE SYNONYM retr0_tk_cts FOR mx_a160_plsql_s06.tk_clientes;
 
-CREATE SYNONYM retr0_tk_ats FOR mx_a160_plsql_s06.tk_articulos;
+CREATE SYNONYM retr0_tk_rpds FOR mx_a160_plsql_s06.tk_repartidores;
