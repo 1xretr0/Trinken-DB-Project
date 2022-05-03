@@ -85,6 +85,8 @@ CREATE TABLE tk_repartidores (
 
 ALTER TABLE tk_repartidores ADD CONSTRAINT rpr_pk PRIMARY KEY ( id );
 
+-- add foreign keys
+
 ALTER TABLE tk_ato_pedidos
     ADD CONSTRAINT ato_pdo_ato_fk FOREIGN KEY ( ato_id )
         REFERENCES tk_articulos ( id );
@@ -109,47 +111,34 @@ ALTER TABLE tk_pedidos
     ADD CONSTRAINT pdo_rpr_fk FOREIGN KEY ( rpr_id )
         REFERENCES tk_repartidores ( id );
 
+-- add check constraint
 
+ALTER TABLE tk_ato_pedidos
+    ADD CONSTRAINT tk_atopdo_ctd_eva_ck
+        CHECK (cantidad_enviada <= cantidad_pedida);
 
--- Informe de Resumen de Oracle SQL Developer Data Modeler:
---
--- CREATE TABLE                             7
--- CREATE INDEX                             0
--- ALTER TABLE                             13
--- CREATE VIEW                              0
--- ALTER VIEW                               0
--- CREATE PACKAGE                           0
--- CREATE PACKAGE BODY                      0
--- CREATE PROCEDURE                         0
--- CREATE FUNCTION                          0
--- CREATE TRIGGER                           0
--- ALTER TRIGGER                            0
--- CREATE COLLECTION TYPE                   0
--- CREATE STRUCTURED TYPE                   0
--- CREATE STRUCTURED TYPE BODY              0
--- CREATE CLUSTER                           0
--- CREATE CONTEXT                           0
--- CREATE DATABASE                          0
--- CREATE DIMENSION                         0
--- CREATE DIRECTORY                         0
--- CREATE DISK GROUP                        0
--- CREATE ROLE                              0
--- CREATE ROLLBACK SEGMENT                  0
--- CREATE SEQUENCE                          0
--- CREATE MATERIALIZED VIEW                 0
--- CREATE MATERIALIZED VIEW LOG             0
--- CREATE SYNONYM                           0
--- CREATE TABLESPACE                        0
--- CREATE USER                              0
---
--- DROP TABLESPACE                          0
--- DROP DATABASE                            0
---
--- REDACTION POLICY                         0
---
--- ORDS DROP SCHEMA                         0
--- ORDS ENABLE SCHEMA                       0
--- ORDS ENABLE OBJECT                       0
---
--- ERRORS                                   0
--- WARNINGS                                 0
+-- add indexes
+
+CREATE INDEX tk_clientes_nombre_idx ON tk_clientes(nombre);
+
+CREATE INDEX tk_articulos_nombre_idx ON tk_articulos(nombre);
+
+CREATE INDEX tk_direccion_cp ON tk_drn_clientes(codigo_postal);
+
+CREATE INDEX tk_pedidos_estado_idx ON tk_pedidos(estado);
+
+-- create synonyms
+
+CREATE SYNONYM retr0_tk_ats FOR mx_a160_plsql_s06.tk_articulos;
+
+CREATE SYNONYM retr0_tk_drn FOR mx_a160_plsql_s06.tk_drn_clientes;
+
+CREATE SYNONYM retr0_tk_ato_pds FOR mx_a160_plsql_s06.tk_ato_pedidos;
+
+CREATE SYNONYM retr0_tk_pvds FOR mx_a160_plsql_s06.tk_proveedores;
+
+CREATE SYNONYM retr0_tk_pds FOR mx_a160_plsql_s06.tk_pedidos;
+
+CREATE SYNONYM retr0_tk_cts FOR mx_a160_plsql_s06.tk_clientes;
+
+CREATE SYNONYM retr0_tk_ats FOR mx_a160_plsql_s06.tk_articulos;
