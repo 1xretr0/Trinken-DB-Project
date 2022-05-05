@@ -87,66 +87,66 @@ INSERT INTO tk_drn_clientes(id, direccion_linea_1, direccion_linea_2, ciudad, co
 VALUES(tk_drn_clientes_id_seq.NEXTVAL, 'Lobo Blanco 4', 'Cuarta Seccion', 'Konoha', 17263, 4007);
 
 -- Insertar en tk_articulos
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Penafiel', 35.00, 'Mezcladores', 'Agua mineral Penafiel de 2L embotellada', 200, 6001);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Coca Cola', 42.00, 'Mezcladores', 'Refresco Cola Cola de 2L embotellada', 200, 6001);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Manzana', 36.00, 'Mezcladores', 'Refresco Manzana de 2L embotellada', 200, 6001);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Sprite', 36.00, 'Mezcladores', 'Refresco Sprite de 2L embotellada', 200, 6001);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Clamato Natural', 28.00, 'Mezcladores', 'Jugo de Tomate Clamato Natural de 473ml embotellada', 200, 6001);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Marlboro Gold', 80.00, 'Cigarros', 'Cajetilla Marlboro Gold', 100, 6002);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Marlboro Rojos', 80.00, 'Cigarros', 'Cajetilla Marlboro Rojos', 100, 6002);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Johnnie Walker Blanco', 849.00, 'Licores', 'Whisky Johnnie Walker Blanco de 750ml', 50, 6002);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Don Julio Reposado', 659.00, 'Licores', 'Tequila Don Julio Reposado de 700ml', 50, 6002);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Maestro Dobel Diamante', 880.00, 'Licores', 'Tequila Maestro Dobel Diamante de 700ml', 50, 6002);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Bacardi Carta Blanca', 199.00, 'Licores', 'Ron Bacardi Carta Blanca de 750ml', 50, 6002);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Smirnoff', 219.00, 'Licores', 'Vodka Smirnoff de 750ml', 50, 6002);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Corona Laton', 80.00, 'Cervezas', '4 pack Corona Laton 473ml c/u', 50, 6001);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Victoria Laton', 80.00, 'Cervezas', '4 pack Victoria Laton 473ml c/u', 50, 6001);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Poker', 85.00, 'Extras', 'Cartas de Poker Plastificadas', 20, 6002);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'PAKETAXTO Xtra Flamin Hot', 54.00, 'Extras', 'Frituras PAKETAXTO Xtra Flamin Hot 228g', 100, 6002);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'PAKETAXTO Botanero', 54.00, 'Extras', 'Frituras PAKETAXTO Botanero 270g', 100, 6002);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Bolsa de Hielos', 34.00, 'Extras', 'Bolsa de Hielos de 5Kg', 50, 6002);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Patuchela', 29.90, 'Extras', 'Chamoy preparado Patuchela', 50, 6002);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'MEGA - Miguelito', 34.50, 'Extras', 'Chamoy + chile MEGA - Miguelito, 200g chamoy y 125g chile', 20, 6002);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Electrolit Mora Azul', 28.50, 'Extras', 'Suero Electrolit Mora Azul 625ml', 100, 6001);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Electrolit Fresa Kiwi', 28.50, 'Extras', 'Suero Electrolit Fresa Kiwi 625ml', 100, 6001);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Redbull', 54.00, 'Extras', 'Bebida energetica Redbull 250ml', 100, 6001);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Monster', 39.00, 'Extras', 'Bebida energetica Monster 473ml', 100, 6001);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Gatorade Uva', 25.00, 'Extras', 'Bebida energetica Gatorade Uva 600ml', 200, 6001);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Gatorade Ponche', 25.00, 'Extras', 'Bebida energetica Gatorade Ponche 600ml', 200, 6001);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Gatorade Moras', 25.00, 'Extras', 'Bebida energetica Gatorade Moras 600ml', 200, 6001);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Trident Freshmint', 15.00, 'Extras', 'Chicles Trident Freshmint 12pzs', 200, 6002);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Trident Menta', 15.00, 'Extras', 'Chicles Trident Menta 12pzs', 200, 6002);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pvr_id)
-VALUES(tk_articulos_id_seq.NEXTVAL, 'Halls Menta', 10.00, 'Extras', 'Pastillas Halls Menta 12pzs', 200, 6002);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Penafiel', 35.00, 'Mezcladores', 'Agua mineral Penafiel de 2L embotellada', 200, 50, 6001);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Coca Cola', 42.00, 'Mezcladores', 'Refresco Cola Cola de 2L embotellada', 200, 50, 6001);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Manzana', 36.00, 'Mezcladores', 'Refresco Manzana de 2L embotellada', 200, 50, 6001);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Sprite', 36.00, 'Mezcladores', 'Refresco Sprite de 2L embotellada', 200, 50, 6001);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Clamato Natural', 28.00, 'Mezcladores', 'Jugo de Tomate Clamato Natural de 473ml embotellada', 200, 50, 6001);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Marlboro Gold', 80.00, 'Cigarros', 'Cajetilla Marlboro Gold', 100, 20, 6002);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Marlboro Rojos', 80.00, 'Cigarros', 'Cajetilla Marlboro Rojos', 100, 20, 6002);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Johnnie Walker Blanco', 849.00, 'Licores', 'Whisky Johnnie Walker Blanco de 750ml', 50, 40, 6002);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Don Julio Reposado', 659.00, 'Licores', 'Tequila Don Julio Reposado de 700ml', 50, 40, 6002);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Maestro Dobel Diamante', 880.00, 'Licores', 'Tequila Maestro Dobel Diamante de 700ml', 50, 40, 6002);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Bacardi Carta Blanca', 199.00, 'Licores', 'Ron Bacardi Carta Blanca de 750ml', 50, 40, 6002);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Smirnoff', 219.00, 'Licores', 'Vodka Smirnoff de 750ml', 50, 40, 6002);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Corona Laton', 80.00, 'Cervezas', '4 pack Corona Laton 473ml c/u', 50, 50, 6001);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Victoria Laton', 80.00, 'Cervezas', '4 pack Victoria Laton 473ml c/u', 50, 50, 6001);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Poker', 85.00, 'Extras', 'Cartas de Poker Plastificadas', 20, 10, 6002);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'PAKETAXTO Xtra Flamin Hot', 54.00, 'Extras', 'Frituras PAKETAXTO Xtra Flamin Hot 228g', 100, 10, 6002);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'PAKETAXTO Botanero', 54.00, 'Extras', 'Frituras PAKETAXTO Botanero 270g', 100, 10, 6002);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Bolsa de Hielos', 34.00, 'Extras', 'Bolsa de Hielos de 5Kg', 50, 10, 6002);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Patuchela', 29.90, 'Extras', 'Chamoy preparado Patuchela', 50, 10, 6002);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'MEGA - Miguelito', 34.50, 'Extras', 'Chamoy + chile MEGA - Miguelito, 200g chamoy y 125g chile', 20, 10, 6002);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Electrolit Mora Azul', 28.50, 'Extras', 'Suero Electrolit Mora Azul 625ml', 100, 10, 6001);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Electrolit Fresa Kiwi', 28.50, 'Extras', 'Suero Electrolit Fresa Kiwi 625ml', 100, 10, 6001);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Redbull', 54.00, 'Extras', 'Bebida energetica Redbull 250ml', 100, 10, 6001);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Monster', 39.00, 'Extras', 'Bebida energetica Monster 473ml', 100, 10, 6001);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Gatorade Uva', 25.00, 'Extras', 'Bebida energetica Gatorade Uva 600ml', 200, 10, 6001);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Gatorade Ponche', 25.00, 'Extras', 'Bebida energetica Gatorade Ponche 600ml', 200, 10, 6001);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pexistencia_min, vr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Gatorade Moras', 25.00, 'Extras', 'Bebida energetica Gatorade Moras 600ml', 200, 10, 6001);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Trident Freshmint', 15.00, 'Extras', 'Chicles Trident Freshmint 12pzs', 200, 10, 6002);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Trident Menta', 15.00, 'Extras', 'Chicles Trident Menta 12pzs', 200, 10, 6002);
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
+VALUES(tk_articulos_id_seq.NEXTVAL, 'Halls Menta', 10.00, 'Extras', 'Pastillas Halls Menta 12pzs', 200, 10, 6002);
 
 -- Insertar en tk_pedidos
 INSERT INTO tk_pedidos(id, fecha, hora, estado, cte_id, rpr_id)
