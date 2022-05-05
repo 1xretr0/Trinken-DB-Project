@@ -139,7 +139,7 @@ INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia,
 VALUES(tk_articulos_id_seq.NEXTVAL, 'Gatorade Uva', 25.00, 'Extras', 'Bebida energetica Gatorade Uva 600ml', 200, 10, 6001);
 INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
 VALUES(tk_articulos_id_seq.NEXTVAL, 'Gatorade Ponche', 25.00, 'Extras', 'Bebida energetica Gatorade Ponche 600ml', 200, 10, 6001);
-INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pexistencia_min, vr_id)
+INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, pexistencia_min, pvr_id)
 VALUES(tk_articulos_id_seq.NEXTVAL, 'Gatorade Moras', 25.00, 'Extras', 'Bebida energetica Gatorade Moras 600ml', 200, 10, 6001);
 INSERT INTO tk_articulos(id, nombre, precio, categoria, descripcion, existencia, existencia_min, pvr_id)
 VALUES(tk_articulos_id_seq.NEXTVAL, 'Trident Freshmint', 15.00, 'Extras', 'Chicles Trident Freshmint 12pzs', 200, 10, 6002);
